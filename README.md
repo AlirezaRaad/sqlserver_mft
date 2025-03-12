@@ -28,4 +28,15 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 # Solutions : 1st Question
 
-<font color='hotpink'>First Step</font> : Database Creating
+First Step : ![Database Creating](Answers/AlirezaRaad-Pharmaceutical-Database_Creation.sql)
+
+In this step, instead of making tables with a foreign key constraint in the first glance, I decided to break down the problem and first CREATE raw tables, and then ALTER the tables to add the given foreign key constraint in the picture.
+
+
+<font color='hotpink'>Second Step</font> : Database polluting
+
+In this Step I manually Insert datas into type_tbl, drug_tbl, country_tbl, company_tbl, commercial_tbl, insurance_tbl beacuse I believe you HAVE to hardcode some essential data first. Then by using the randomness of NEWID(), I randomly add data in prescription_tbl and order_tbl.
+
+<font color='hotpink'>Last Step</font> : Report
+
+Now in the final step I just used my SQL knowledge and answered the given questions.
