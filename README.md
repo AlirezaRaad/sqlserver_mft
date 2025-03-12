@@ -23,8 +23,8 @@ The <b>Second question</b> which is optional is, Using given Ratatouille databas
 The Boss insists you provide the report in one table with restaurant_title, chef_title, food_title as its columns, like the picture bellow:
 
 ![Alt text](Ratatouille.png)
-<hr>
 
+<hr>
 # Solutions
 ## 1st Question
 
