@@ -25,6 +25,7 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 ![Alt text](Ratatouille.png)
 
 <hr>
+
 # Solutions
 ## 1st Question
 
