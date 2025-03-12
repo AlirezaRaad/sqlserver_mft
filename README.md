@@ -33,11 +33,11 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 In this step, instead of making tables with a foreign key constraint at first glance, I decided to break down the problem and first CREATE raw tables, and then ALTER the tables to add the given foreign key constraint in the picture.
 
-### **Second Step**: Database Polluting
+### **Second Step**: [Database Polluting](Answers/AlirezaRaad-Pharmaceutical-Database_Poluting.sql)
 
 In this step, I manually inserted data into `type_tbl`, `drug_tbl`, `country_tbl`, `company_tbl`, `commercial_tbl`, and `insurance_tbl` because I believe you HAVE to hardcode some essential data first. Then, by using the randomness of `NEWID()`, I randomly added data into `prescription_tbl` and `order_tbl`.
 
-### **Last Step**: Report
+### **Last Step**: [Report](Answers/AlirezaRaad-Pharmaceutical-Database_Reports.sql)
 
 Now, in the final step, I just used my SQL knowledge and answered the given questions.
 
