@@ -28,3 +28,4 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 # Solutions : 1st Question
 
+<font color='hotpink'>First Step</font> : Database Creating
