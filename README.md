@@ -28,7 +28,7 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 # Solutions : 1st Question
 
-###<b>First Step : [Database Creating](Answers/AlirezaRaad-Pharmaceutical-Database_Creation.sql)</b>
+### <b>First Step : [Database Creating](Answers/AlirezaRaad-Pharmaceutical-Database_Creation.sql)</b>
 
 In this step, instead of making tables with a foreign key constraint in the first glance, I decided to break down the problem and first CREATE raw tables, and then ALTER the tables to add the given foreign key constraint in the picture.
 
