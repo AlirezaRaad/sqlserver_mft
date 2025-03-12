@@ -1,4 +1,4 @@
-# sqlserver_mft
+# MFT | SQLServer
 
 Hello to Everybody.
 This is my answer to the question which had been provided by our <a href="https://www.linkedin.com/in/hani-hani-1793097a/">teacher</a> in <a href="https://www.linkedin.com/company/khanehomran/">MFT institution</a>, which is located in Tehran, IRAN.
@@ -40,4 +40,12 @@ In this step, I manually inserted data into `type_tbl`, `drug_tbl`, `country_tbl
 ### **Last Step**: [Report](Answers/AlirezaRaad-Pharmaceutical-Database_Reports.sql)
 
 Now, in the final step, I just used my SQL knowledge and answered the given questions.
+
+
+<hr>
+
+# Solutions : 2nd Question
+
+[Answer to this Question](https://github.com/AlirezaRaad/sqlserver_mft/blob/main/Answers/AlirezaRaad-Ratatouille-Report.sql) was a bit tricky, because I did not put `AND Food_table.restaurant_id = Restaurant_table.restaurant_id` at the end of my `LEFT JOIN Food_table ON Food_table.food_id = Food_chef_table.food_id` in the 3rd question, I consistently got 8 rows instread of 10.
+You have to add an `AND` because you have to check the cooks that don't cook any food IN A RESTAURANT. if you don't add this and use regular `LEFT JOIN`, you fetch the chefs, but because they cook in other restaurants you won't get the desired result.
 
