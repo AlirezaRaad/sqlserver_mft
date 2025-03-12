@@ -14,7 +14,6 @@ The <b>First question</b> is, based on the picture below, create a database; The
 ![Alt text](Q1.png)
 
 
-<hr>
 
 The <b>Second question</b> which is optional is, Using given Ratatouille database file, for each restaurant, provide a report that includes:
 1. Which food is cooked by which chef
@@ -24,8 +23,8 @@ The <b>Second question</b> which is optional is, Using given Ratatouille databas
 The Boss insists you provide the report in one table with restaurant_title, chef_title, food_title as its columns, like the picture bellow:
 
 ![Alt text](Ratatouille.png)
+<hr>
 
-
-# Souklutions
+# Solutions
 ## 1st Question
 
