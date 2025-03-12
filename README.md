@@ -26,6 +26,5 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 <hr>
 
-# Solutions
-## 1st Question
+# Solutions : 1st Question
 
