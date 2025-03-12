@@ -26,20 +26,6 @@ The Boss insists you provide the report in one table with restaurant_title, chef
 
 <hr>
 
-# Solutions : 1st Question
-
-### <b>First Step : [Database Creating](Answers/AlirezaRaad-Pharmaceutical-Database_Creation.sql)</b>
-
-In this step, instead of making tables with a foreign key constraint in the first glance, I decided to break down the problem and first CREATE raw tables, and then ALTER the tables to add the given foreign key constraint in the picture.
-
-
-###<font color='hotpink'>Second Step</font> : Database polluting
-
-In this Step I manually Insert datas into type_tbl, drug_tbl, country_tbl, company_tbl, commercial_tbl, insurance_tbl beacuse I believe you HAVE to hardcode some essential data first. Then by using the randomness of NEWID(), I randomly add data in prescription_tbl and order_tbl.
-
-###<font color='hotpink'>Last Step</font> : Report
-
-Now in the final step I just used my SQL knowledge and answered the given questions.
 
 # Solutions : 1st Question
 
@@ -47,11 +33,11 @@ Now in the final step I just used my SQL knowledge and answered the given questi
 
 In this step, instead of making tables with a foreign key constraint at first glance, I decided to break down the problem and first CREATE raw tables, and then ALTER the tables to add the given foreign key constraint in the picture.
 
-### <span style="color:hotpink">Second Step</span> : Database Polluting
+### **Second Step**: Database Polluting
 
 In this step, I manually inserted data into `type_tbl`, `drug_tbl`, `country_tbl`, `company_tbl`, `commercial_tbl`, and `insurance_tbl` because I believe you HAVE to hardcode some essential data first. Then, by using the randomness of `NEWID()`, I randomly added data into `prescription_tbl` and `order_tbl`.
 
-### <span style="color:hotpink">Last Step</span> : Report
+### **Last Step**: Report
 
 Now, in the final step, I just used my SQL knowledge and answered the given questions.
 
