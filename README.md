@@ -4,7 +4,7 @@ This repository was created to upload the MFT SQLServer end-of-semester exam.
 Hello to Everybody.
 This is my answer to the question which had been provided by our <a href="https://www.linkedin.com/in/hani-hani-1793097a/">teacher</a> in <a href="https://www.linkedin.com/company/khanehomran/">MFT institution</a>, which is located in Tehran, IRAN.
 
-The First question is, based on the picture below, create a database; Then pollute the database with data, and then answer the following questions:
+The <b>First question</b> is, based on the picture below, create a database; Then pollute the database with data, and then answer the following questions:
 1. The number of prescriptions that France has made drugs in it.
 2. Name of the insurance company which had over 100 prescriptions in the last year.
 3. Create a subprogram to get a company id and return the most expensive drug of that company.
@@ -15,4 +15,16 @@ The First question is, based on the picture below, create a database; Then pollu
 ![Alt text](Q1.png)
 
 
+<hr>
+
+The <b>Second question</b> which is optional is, Using given Ratatouille database file, for each restaurant, provide a report that includes:
+1. Which food is cooked by which chef
+2. Which food is cooked but don't have a chef
+3. Which chefs don't cook any food
+
+The Boss insists you provide the report in one table with restaurant_title, chef_title, food_title as its columns, like the picture bellow:
+
+![Alt text](Ratatouille.png)
+
+<hr>
 <hr>
