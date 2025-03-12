@@ -47,5 +47,6 @@ Now, in the final step, I just used my SQL knowledge and answered the given ques
 # Solutions : 2nd Question
 
 [Answer to this Question](https://github.com/AlirezaRaad/sqlserver_mft/blob/main/Answers/AlirezaRaad-Ratatouille-Report.sql) was a bit tricky, because I did not put `AND Food_table.restaurant_id = Restaurant_table.restaurant_id` at the end of my `LEFT JOIN Food_table ON Food_table.food_id = Food_chef_table.food_id` in the 3rd question, I consistently got 8 rows instread of 10.
-You have to add an `AND` because you have to check the cooks that don't cook any food IN A RESTAURANT. if you don't add this and use regular `LEFT JOIN`, you fetch the chefs, but because they cook in other restaurants you won't get the desired result.
+
+You have to add an `AND` because you have to check the cooks that don't cook any food IN A RESTAURANT. if you don't add this and use regular `LEFT JOIN`, you fetch the chefs, but because they cook in other restaurants, you won't get the desired result.
 
