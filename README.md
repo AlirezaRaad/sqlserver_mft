@@ -14,3 +14,5 @@ The First question is, based on the picture below, create a database; Then pollu
 
 ![Alt text](Q1.png)
 
+
+<hr>
